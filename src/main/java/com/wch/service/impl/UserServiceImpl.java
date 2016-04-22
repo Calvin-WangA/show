@@ -5,7 +5,7 @@ import org.springframework.stereotype.Service;
 
 import com.wch.dao.UserMapper;
 import com.wch.entity.User;
-import com.wch.service.UserService;
+import com.wch.service.iface.UserService;
 
 @Service("userService")
 public class UserServiceImpl implements UserService

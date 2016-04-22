@@ -1,4 +1,4 @@
-package com.wch.service;
+package com.wch.service.iface;
 
 import com.wch.entity.User;
 

@@ -7,6 +7,10 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<name>show Maven Webapp</name>
 	<url>http://maven.apache.org</url>
+
+	<properties>
+
+	</properties>
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework</groupId>
@@ -70,6 +74,11 @@
 			<groupId>com.oracle.driver</groupId>
 			<artifactId>oracle-driver</artifactId>
 			<version>7.0</version>
+		</dependency>
+		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+			<version>5.1.38</version>
 		</dependency>
 
 		<!-- spring切面插件 -->
@@ -140,6 +149,17 @@
 			<artifactId>quartz</artifactId>
 			<version>2.2.1</version>
 		</dependency>
+        <!-- 缓存插件 -->
+		<dependency>
+			<groupId>org.ehcache</groupId>
+			<artifactId>ehcache</artifactId>
+			<version>3.0.0</version>
+		</dependency>
+		<dependency>
+            <groupId>javax.cache</groupId>
+            <artifactId>cache-api</artifactId>
+            <version>1.0.0</version>
+        </dependency>
 	</dependencies>
 	<build>
 		<finalName>show</finalName>

@@ -9,7 +9,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 import com.wch.entity.User;
-import com.wch.service.UserService;
+import com.wch.service.iface.UserService;
 
 @Controller
 @RequestMapping("userController")

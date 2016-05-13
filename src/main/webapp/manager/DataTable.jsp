@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Insert title here</title>
+<title>数据处理插件实例</title>
 
 <link rel="stylesheet" href="../jquery/DataTables/media/css/jquery.dataTables.min.css" />
 <link rel="stylesheet" href="../jquery/DataTables/extensions/Buttons/css/buttons.dataTables.min.css"/>

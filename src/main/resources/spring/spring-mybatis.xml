@@ -19,9 +19,9 @@
     <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
         <property name="dataSource" ref="dataSource"/>
         <!-- 只是为了指定日志实现工具而已 -->
-        <property name="configLocation" value="classpath:mybatis-config.xml"></property>
+        <property name="configLocation" value="classpath:mybatis-config.xml"/>
         <!-- 指定扫描mybatis配置的mapper配置文件 -->
-        <property name="mapperLocations" value="classpath:com/wch/sqlmap/*.xml"/>
+        <property name="mapperLocations" value="classpath:sqlmap/*.xml"/>
     </bean> 
     
     <!-- 指定扫描dao包 -->

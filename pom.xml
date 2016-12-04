@@ -81,11 +81,11 @@
 		</dependency>
 		<!-- 将maven中没有的jar包,从网上下载手动添加到本地存储库中, 在根目录下新建如下的组成的目录mylocallib/ojdbc/7, 
 			将相应的jar包放到7文件夹下即可 -->
-		<dependency>
+		<!--<dependency>
 			<groupId>com.oracle.driver</groupId>
 			<artifactId>oracle-driver</artifactId>
 			<version>7.0</version>
-		</dependency>
+		</dependency>-->
 		<dependency>
 			<groupId>mysql</groupId>
 			<artifactId>mysql-connector-java</artifactId>

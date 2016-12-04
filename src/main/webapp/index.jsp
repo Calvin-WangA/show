@@ -19,11 +19,11 @@
 <meta http-equiv="description" content="This is my page">
 
 <link rel="stylesheet" type="text/css" href="../jquery/jquery-ui.css"/>
-<script src="../jquery/jquery-1.11.3.min.js" type="text/javascript"></script>
+<script src="../jquery/jquery-1.12.0.min.js" type="text/javascript"></script>
 <script src="../jquery/jquery-ui.js" language="javascript"></script>
 <script type="text/javascript">
     $(function(){
-    	alert('success');
+    	/*alert('success');
     	$("#dialogId").dialog({
 			autoOpen : true,
 			width : 300,
@@ -37,7 +37,7 @@
 					$(this).dialog("close");
 				}
 			}
-		});
+		});*/
 	});
 </script>
 </head>

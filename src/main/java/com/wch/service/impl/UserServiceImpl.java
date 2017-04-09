@@ -11,15 +11,9 @@ import com.wch.service.iface.UserService;
 public class UserServiceImpl implements UserService
 {
 
+	@Autowired
     private UserMapper userMapper;
-    
-    @Autowired
-	public void setUserMapper(UserMapper userMapper)
-	{
-		this.userMapper = userMapper;
-	}
-    
-	@Override
+
 	public User getUser(String id)
 	{
 		User user = userMapper.selectUser(id);

@@ -46,7 +46,7 @@
 	<div id="dialogId" title="登录">
 		<p>南行-----------北行</p>
 	</div>
-	<a href="userController/user.action?id=1">获取用户信息</a>
+	<a href="userController/user.action?id=522130199203052854">获取用户信息</a>
 	<br>
 </body>
 </html>

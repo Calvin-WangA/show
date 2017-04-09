@@ -12,7 +12,17 @@ public class User implements Serializable
 	private String username;
 	
 	private String password;
-    
+
+	private int age = 0;
+
+	public int getAge() {
+		return age;
+	}
+
+	public void setAge(int age) {
+		this.age = age;
+	}
+
 	public String getUsername()
 	{
 		return username;
